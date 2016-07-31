@@ -30,6 +30,12 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>Dokan.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
   </ItemGroup>
@@ -44,6 +50,7 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
+    <None Include="Dokan.snk" />
     <None Include="net46\_._">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>

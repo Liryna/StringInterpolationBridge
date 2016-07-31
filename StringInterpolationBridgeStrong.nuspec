@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>StringInterpolationBridgeStrong</id>
+        <version>0.9.1</version>
+        <title>StringInterpolationBridgeStrong</title>
+        <authors>AdrienJ</authors>
+        <owners>AdrienJ</owners>
+        <projectUrl>https://github.com/Liryna/StringInterpolationBridge</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Provides FormattableString/FormattableStringFactory for pre-4.6 .NET Framework.</description>
+        <copyright>Copyright (C) 2016</copyright>
+    </metadata>
+    <files>
+		<file src="StringInterpolationBridge\bin\Release\StringInterpolationBridge.dll" target="lib\net20\StringInterpolationBridge.dll" />
+		<file src="StringInterpolationBridge\bin\Release\net40\StringInterpolationBridge.dll" target="lib\net40\StringInterpolationBridge.dll" />
+		<file src="StringInterpolationBridge\bin\Release\net46\_._" target="lib\net46\_._" />
+	</files>
+</package>
